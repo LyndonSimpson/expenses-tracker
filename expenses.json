@@ -28,13 +28,6 @@
     "updatedAt": "2026-02-01T14:20:25.333Z"
   },
   {
-    "id": 5,
-    "value": 50,
-    "category": "other",
-    "createAt": "2026-02-01T14:20:59.934Z",
-    "updatedAt": "2026-02-01T14:20:59.934Z"
-  },
-  {
     "id": 6,
     "value": 13,
     "category": "outings",
@@ -47,12 +40,5 @@
     "category": "outings",
     "createAt": "2026-02-01T14:23:13.683Z",
     "updatedAt": "2026-02-01T14:23:13.683Z"
-  },
-  {
-    "id": 8,
-    "value": "47",
-    "category": "food",
-    "createAt": "2026-02-01T14:25:04.107Z",
-    "updatedAt": "2026-02-01T14:44:01.879Z"
   }
 ]

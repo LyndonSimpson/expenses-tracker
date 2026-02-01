@@ -43,7 +43,7 @@ function main() {
 
     const args = argv.slice(1);
 
-    const id = args[1]
+    const id = args[1];
 
     const expenses = loadExpense();
     let changed = false;
@@ -54,11 +54,15 @@ function main() {
             break;
         
         case "update":
-            console.log("id -->", id);
-            console.log("value -->", args[0])
+            // console.log("id -->", id);
+            // console.log("value -->", args[0])
             changed = commands.cmdUpdate(expenses, args[0], id);
-            break;    
-    
+            break;
+        
+        case "delete":
+            changed = commands.cmdDelete(expenses, args[0])
+            break;
+
         default:
             helpers.printUsage();
             break;

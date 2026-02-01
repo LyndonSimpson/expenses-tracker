@@ -69,6 +69,25 @@ const commands = {
         return true;
     },
 
+    cmdDelete(expenses, id) {
+        if (!id) {
+            console.error("Errer: missing 1 argument.");
+        }
+
+        const parsedId = helpers.parseId(id);
+
+        const idx = helpers.findExpenseIndex(expenses, parsedId);
+
+        if (idx === -1) {
+            console.error("Error: No expense found for this Id.");
+            return;
+        }
+
+        expenses.splice(idx, 1);
+        console.log("Expense succesfully deleted!");
+        return true;
+    },
+
 }
 
 export default commands;
