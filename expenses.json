@@ -1,4 +1,51 @@
 [
-    {1},
-    {2},
+  {
+    "id": 1,
+    "value": 100,
+    "category": "candy",
+    "createAt": "2026-02-01T12:04:34.387Z",
+    "updatedAt": "2026-02-01T12:04:34.387Z"
+  },
+  {
+    "id": 2,
+    "value": 100,
+    "category": "candy",
+    "createAt": "2026-02-01T14:19:24.629Z",
+    "updatedAt": "2026-02-01T14:19:24.629Z"
+  },
+  {
+    "id": 3,
+    "value": 25,
+    "category": "food",
+    "createAt": "2026-02-01T14:19:46.150Z",
+    "updatedAt": "2026-02-01T14:19:46.150Z"
+  },
+  {
+    "id": 4,
+    "value": 50,
+    "category": "other",
+    "createAt": "2026-02-01T14:20:25.333Z",
+    "updatedAt": "2026-02-01T14:20:25.333Z"
+  },
+  {
+    "id": 5,
+    "value": 50,
+    "category": "other",
+    "createAt": "2026-02-01T14:20:59.934Z",
+    "updatedAt": "2026-02-01T14:20:59.934Z"
+  },
+  {
+    "id": 6,
+    "value": 13,
+    "category": "outings",
+    "createAt": "2026-02-01T14:22:34.038Z",
+    "updatedAt": "2026-02-01T14:22:34.038Z"
+  },
+  {
+    "id": 7,
+    "value": 27,
+    "category": "outings",
+    "createAt": "2026-02-01T14:23:13.683Z",
+    "updatedAt": "2026-02-01T14:23:13.683Z"
+  }
 ]
