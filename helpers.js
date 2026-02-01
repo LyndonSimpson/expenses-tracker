@@ -35,23 +35,11 @@ const helpers = {
     Expenses Tracker CLI (Node.js)
 
     Usage:
-    node expenses add "Task description"
-    node expenses update <id> "New description"
-    node expenses delete <id>
-    node expenses mark <id> <status>
-    node expenses list
-    node expenses list <status>
-
-    Statuses:
-    todo | in-progress | done
-
-    Examples:
-    node expenses add "Buy groceries"
-    node expenses update 1 "Buy groceries and cook dinner"
-    node expenses mark 1 in-progress
-    node expenses mark 1 done
-    node expenses list
-    node expenses list done
+    node tracker add <value>
+    node tracker update <value> <id>
+    node tracker delete <id>
+    node tracker list
+    node tracker all
         `.trim())
     },
 };

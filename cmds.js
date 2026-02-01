@@ -1,6 +1,6 @@
 import helpers from "./helpers.js";
 
-const VALID_CATEGORIES = new Set(["food", "rent", "candy", "outings", "other"]);
+const VALID_CATEGORIES = new Set(["food", "rent", "candy", "outings", "other", "subscription"]);
 
 const commands = {
 
