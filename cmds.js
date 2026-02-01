@@ -116,6 +116,16 @@ const commands = {
         });
     },
 
+    cmdFullExpenses(expenses) {
+        let fullCount = 0;
+
+        expenses.forEach((expense) => {
+            fullCount = fullCount + expense.value;
+        });
+
+        console.log("Full spendings for month: ", fullCount.toString())
+    },
+
 }
 
 export default commands;

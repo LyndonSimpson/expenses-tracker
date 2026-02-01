@@ -70,6 +70,10 @@ function main() {
         case "type":
             changed = commands.cmdListByType(expenses, args[0]);
             break;
+        
+        case "all":
+        commands.cmdFullExpenses(expenses);
+        break;
 
         default:
             helpers.printUsage();
