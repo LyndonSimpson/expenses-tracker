@@ -42,9 +42,32 @@ const commands = {
         return true;
     },
 
-    // cmdUpdate() {
-    //     //update cmd here
-    // },
+    cmdUpdate(expenses, value, id) {
+        if (!value) {
+            console.error("Error: missing argument.");
+            return;
+        };
+
+        if (!id) {
+            console.error("Error: missing id.");
+            return;
+        };
+
+        const parsedId = helpers.parseId(id);
+
+        const idx = helpers.findExpenseIndex(expenses, parsedId);
+
+        if (idx === -1) {
+            console.log("idx -->", idx);
+            console.error("Error: no expense found with this Id.");
+            return;
+        };
+
+        expenses[idx].value = value;
+        expenses[idx].updatedAt = helpers.nowISO();
+        console.log(`expense Num. ${id} was updated with value ${value}`);
+        return true;
+    },
 
 }
 

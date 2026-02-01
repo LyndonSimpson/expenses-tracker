@@ -43,6 +43,8 @@ function main() {
 
     const args = argv.slice(1);
 
+    const id = args[1]
+
     const expenses = loadExpense();
     let changed = false;
 
@@ -50,6 +52,12 @@ function main() {
         case "add":
             changed = commands.cmdAdd(expenses, args);
             break;
+        
+        case "update":
+            console.log("id -->", id);
+            console.log("value -->", args[0])
+            changed = commands.cmdUpdate(expenses, args[0], id);
+            break;    
     
         default:
             helpers.printUsage();

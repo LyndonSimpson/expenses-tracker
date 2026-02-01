@@ -16,7 +16,7 @@ const helpers = {
 
     parseId(value) {
         const id = Number(value);
-        if (!Number.isInteger()) {
+        if (!Number.isInteger(id)) {
             console.error("Error: id must be a number");
             return null;
         }
