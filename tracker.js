@@ -62,6 +62,14 @@ function main() {
         case "delete":
             changed = commands.cmdDelete(expenses, args[0])
             break;
+        
+        case "list":
+            changed = commands.cmdList(expenses);
+            break
+        
+        case "type":
+            changed = commands.cmdListByType(expenses, args[0]);
+            break;
 
         default:
             helpers.printUsage();

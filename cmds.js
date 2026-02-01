@@ -88,6 +88,34 @@ const commands = {
         return true;
     },
 
+    cmdList(expenses) {
+        if (expenses.length < 1) {
+            console.error("Error: No expenses found.");
+            return;
+        }
+
+        for (let i = 0;i < expenses.length; i++) {
+            helpers.printExpense(expenses[i]);
+        }
+    },
+
+    cmdListByType(expenses, type) {
+        if (expenses.length < 1) {
+            console.error("Error: No expenses found.");
+            return;
+        }
+
+        const filtered = expenses.filter((e) => e.category === type);
+        if (filtered.length < 1) {
+            console.error("Error: no exenses found for this type.");
+            return;
+        }
+
+        filtered.forEach(expense => {
+            helpers.printExpense(expense);
+        });
+    },
+
 }
 
 export default commands;
