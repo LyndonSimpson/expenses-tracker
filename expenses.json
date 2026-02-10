@@ -1,30 +1,37 @@
 [
   {
     "id": 1,
-    "value": 100,
+    "value": 200,
+    "category": "outings",
+    "createAt": "2026-02-01T18:59:27.902Z",
+    "updatedAt": "2026-02-01T18:59:27.902Z"
+  },
+  {
+    "id": 2,
+    "value": 70,
     "category": "candy",
-    "createAt": "2026-02-01T12:04:34.387Z",
-    "updatedAt": "2026-02-01T12:04:34.387Z"
+    "createAt": "2026-02-01T18:59:42.407Z",
+    "updatedAt": "2026-02-01T18:59:42.407Z"
   },
   {
-    "id": 6,
-    "value": 13,
-    "category": "outings",
-    "createAt": "2026-02-01T14:22:34.038Z",
-    "updatedAt": "2026-02-01T14:22:34.038Z"
+    "id": 3,
+    "value": 40,
+    "category": "other",
+    "createAt": "2026-02-01T19:00:08.273Z",
+    "updatedAt": "2026-02-01T19:00:08.273Z"
   },
   {
-    "id": 7,
-    "value": 27,
-    "category": "outings",
-    "createAt": "2026-02-01T14:23:13.683Z",
-    "updatedAt": "2026-02-01T14:23:13.683Z"
-  },
-  {
-    "id": 8,
-    "value": 32,
+    "id": 4,
+    "value": 50,
     "category": "food",
-    "createAt": "2026-02-01T15:48:15.330Z",
-    "updatedAt": "2026-02-01T15:48:15.330Z"
+    "createAt": "2026-02-01T19:00:27.532Z",
+    "updatedAt": "2026-02-01T19:00:27.532Z"
+  },
+  {
+    "id": 5,
+    "value": 28,
+    "category": "food",
+    "createAt": "2026-02-08T00:05:35.931Z",
+    "updatedAt": "2026-02-08T00:05:35.931Z"
   }
 ]

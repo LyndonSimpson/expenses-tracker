@@ -54,6 +54,7 @@ function main() {
             break;
         
         case "update":
+            // console.log("debugs here");
             // console.log("id -->", id);
             // console.log("value -->", args[0])
             changed = commands.cmdUpdate(expenses, args[0], id);
